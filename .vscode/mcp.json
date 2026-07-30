@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "azure-git-manager": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "C:/Users/91934/azure-git-mcp-server/dist/index.js"
+      ],
+      "env": {
+        "PATH": "C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\Program Files\\Git\\cmd;%PATH%"
+      }
+    }
+  }
+}
